@@ -190,7 +190,7 @@ function gameOver()
         'Game Over',            // title
         'Done'                  // buttonName
     );
-    
+    newGame();
     //document.getElementById("text").textContent = "Game Over! Press 'R' to restart.";
 }
 
