@@ -179,6 +179,18 @@ function Dot()
 function gameOver()
 {
     loose = true;
+
+    function alertDismissed() {
+        // do something
+    }
+
+    navigator.notification.alert(
+        'Você Perdeu!',  // message
+        alertDismissed,         // callback
+        'Game Over',            // title
+        'Done'                  // buttonName
+    );
+    
     //document.getElementById("text").textContent = "Game Over! Press 'R' to restart.";
 }
 
