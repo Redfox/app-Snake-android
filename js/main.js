@@ -183,7 +183,7 @@ function gameOver()
     function alertDismissed() {
         // do something
     }
-
+    navigator.vibrate(1000);
     navigator.notification.alert(
         'Você Perdeu!',  // message
         alertDismissed,         // callback
